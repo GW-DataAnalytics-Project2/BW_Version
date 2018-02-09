@@ -47,7 +47,10 @@ def index():
 @app.route("/map_1")
 def map_1():
     return render_template("map_1.html")
-   
+@app.route("/map_2")
+def map_2():
+    return render_template("map_2.html")
+
 # return List of neighbourhood names
 @app.route('/names')
 def names():
